@@ -1,0 +1,16 @@
+{
+  "name": "dimencart",
+  "version": "1.0.0",
+  "description": "DimenCart is the modern era ecommerce store for modern buyers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "utilmen",
+  "license": "ISC",
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "bootstrap": "^5.1.3",
+    "swiper": "^7.4.1"
+  }
+}

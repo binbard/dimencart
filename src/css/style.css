@@ -1,0 +1,19 @@
+/* jpg
+4907157    roughwh
+5183000    colored
+paper-g0dcec2322_1920 yellowcard
+v996-008   premium
+
+*/
+
+/* @font-face {
+    font-family: magilio;
+    src: url("../../res/fonts/MagilioRegular-8Mxvg.otf");
+  } */
+
+body {
+    background-image: url("../../res/bg/4907157.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+
+}
