@@ -18,6 +18,11 @@ document.querySelector('#navbarSideCollapse').addEventListener("click", function
     z0=0;mswiper.setAttribute('style','z-index: 0');}
 });
 
+/* navbar ux */
+function menuNavClicked(e){
+  e.setAttribute('class','');
+}
+
 /* search bar */
 var categoryContent = [
   { category: 'South America', title: 'Brazil' },

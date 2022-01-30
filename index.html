@@ -5,40 +5,48 @@
   <title>DimenCart - modern era carriage</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="./src/source/Semantic-UI-CSS-master/semantic.min.css">
-  <link rel="stylesheet" type="text/css" href="./node_modules/swiper/swiper-bundle.min.css">
-  <link rel="stylesheet" type="text/css" href="./src/css/navbar.css">
-  <link rel="stylesheet" type="text/css" href="./src/css/swiper.css">
-  <link rel="stylesheet" type="text/css" href="./src/css/cards1.css">
-  <link rel="stylesheet" type="text/css" href="./src/css/style.css">
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./src/source/Semantic-UI-CSS-master/semantic.min.css">
+  <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="./node_modules/animate.css/animate.min.css">
+  <link rel="stylesheet" href="./node_modules/@mdi/font/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="./src/css/navbar.css">
+  <link rel="stylesheet" href="./src/css/swiper.css">
+  <link rel="stylesheet" href="./src/css/cards1.css">
+  <link rel="stylesheet" href="./src/css/style.css">
 </head>
 
-<body class="">
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Main navigation">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Offcanvas navbar</a>
+<body style="color: #131921;">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" aria-label="Main navigation" style="background-color:#076ae1;max-height: 7vh;padding: 0px;">
+    <div class="container align-items-center">
+      <a class="navbar-brand flex-fill animate__animated animate__flipInY" href="#"><span><img style="width:50px;height:35px;border-radius:10%;object-fit:cover;"src="./res/logo/dimencart-logo-blue-dc.jpeg"></span></a>
+      <form class="flex-fill mx-auto me-auto">
+        <div class="ui category search mx-auto">
+          <div class="ui icon input">
+            <input class="prompt" type="text" placeholder="Search Products" style="min-width:40vw;width:auto;">
+            <i class="search icon"></i>
+          </div>
+          <div class="results"></div>
+        </div>
+      </form>
       <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <i class="mdi mdi-menu-open"></i>
       </button>
 
       <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <ul class="navbar-nav mb-2 mb-lg-0 mx-auto">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Dashboard</a>
+            <a class="nav-link active" aria-current="page" href="#"><i class="mdi mdi-bookmark-box-multiple p-lg-0 zmbar"></i></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Notifications</a>
+            <a class="nav-link" href="#"><i class="mdi mdi-cart p-lg-0 zmbar"></i></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Profile</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Switch account</a>
+            <a class="nav-link" href="./aboutus.html"><span class="mdi mdi-bell-badge p-lg-0 zmbar"></span></a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown"
-              aria-expanded="false">Settings</a>
+              aria-expanded="false"><i class="mdi mdi-account-box p-lg-0 zmbar"></i></a>
             <ul class="dropdown-menu" aria-labelledby="dropdown01">
               <li><a class="dropdown-item" href="#">Action</a></li>
               <li><a class="dropdown-item" href="#">Another action</a></li>
@@ -46,21 +54,12 @@
             </ul>
           </li>
         </ul>
-        <form class="d-flex">
-          <div class="ui category search">
-            <div class="ui icon input">
-              <input class="prompt" type="text" placeholder="Search Products">
-              <i class="search icon"></i>
-            </div>
-            <div class="results"></div>
-          </div>
-        </form>
       </div>
     </div>
   </nav>
 
-  <div class="nav-scroller bg-body shadow-sm">
-    <nav class="nav nav-underline" aria-label="Secondary navigation">
+  <div class="nav-scroller bg-body">
+    <nav class="nav nav-underline pt-5" aria-label="Secondary navigation">
       <a class="nav-link active" aria-current="page" href="#">Dashboard</a>
       <a class="nav-link" href="#">
         Friends
@@ -76,6 +75,11 @@
     </nav>
   </div>
   <br>
+
+  <div class="">
+
+  </div>
+
   <div class="jumbotron">
     <div class="container col-12 h-100 justify-content-end">
       <div class="swiper mySwiper border rounded-3">
@@ -91,6 +95,34 @@
           <div class="swiper-slide">Slide 9</div>
         </div>
         <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="ui card">
+        <div class="content">
+          <div class="right floated meta">14h</div>
+          <img class="ui avatar image" src="/images/avatar/large/elliot.jpg"> Elliot
+        </div>
+        <div class="image">
+          <img>
+        </div>
+        <div class="content">
+          <span class="right floated">
+            <i class="heart outline like icon"></i>
+            17 likes
+          </span>
+          <i class="comment icon"></i>
+          3 comments
+        </div>
+        <div class="extra content">
+          <div class="ui large transparent left icon input">
+            <i class="heart outline icon"></i>
+            <input type="text" placeholder="Add Comment...">
+          </div>
+        </div>
       </div>
     </div>
   </div>

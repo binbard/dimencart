@@ -2,19 +2,21 @@
     .offcanvas-collapse {
       position: fixed;
       top: 56px; /* Height of navbar */
-      bottom: 0;
+      /* bottom: 0; */
       left: 100%;
       width: 100%;
       padding-right: 1rem;
       padding-left: 1rem;
       overflow-y: auto;
       visibility: hidden;
-      background-color: #343a40;
-      transition: transform .3s ease-in-out, visibility .3s ease-in-out;
+      background-color: #ffffff;
+      transition: transform .3s ease-in-out, visibility .1s ease-in-out;
+      background-color: transparent;
     }
     .offcanvas-collapse.open {
       visibility: visible;
-      transform: translateX(-100%);
+      transform: translateX(-50%);
+      /* padding-left: 100px; */
     }
   }
   
@@ -56,3 +58,4 @@
   .bg-purple {
     background-color: #6f42c1;
   }
+
