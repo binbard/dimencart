@@ -12,20 +12,8 @@ v996-008   premium
   } */
 
 body {
-    background-image: url("https://images.pexels.com/photos/4202924/pexels-photo-4202924.jpeg?cs=srgb&dl=pexels-karolina-grabowska-4202924.jpg&fm=jpg");
-    background-repeat: repeat;
-    background-size: cover;
-}
-.mdi { 
-  font-size: 30px;
-  color: #e0d9d9;
-}
-.zmbar { 
-  padding-left: 125px;
-  padding-right: 10px;
-  
-}
-.mdi.mdi-menu-open { 
-  color: #ffffff;
-  padding: 0px 0px 0px 0px;
+  padding-top: 90px;
+  background-image: url("https://images.pexels.com/photos/4202924/pexels-photo-4202924.jpeg?cs=srgb&dl=pexels-karolina-grabowska-4202924.jpg&fm=jpg");
+  background-repeat: repeat;
+  background-size: cover;
 }

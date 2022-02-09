@@ -20,6 +20,20 @@
     }
   }
   
+  /* sidebar */
+  .mdi { 
+    font-size: 30px;
+    color: #fcfcfc;
+  }
+  .zmbar { 
+    padding-left: 36vw;
+  }
+  .mdi.mdi-menu-open { 
+    color: #ffffff;
+    padding: 0px 0px 0px 0px;
+  }
+
+
   .nav-scroller {
     position: relative;
     z-index: 2;
@@ -59,3 +73,9 @@
     background-color: #6f42c1;
   }
 
+/* swiper-wrapper */
+.swiper-wrapper .swiper-slide{
+  max-width: 10px;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
