@@ -25,19 +25,19 @@ function menuNavClicked(e){
 
 /* search bar */
 var categoryContent = [
-  { category: 'South America', title: 'Brazil' },
-  { category: 'South America', title: 'Peru' },
-  { category: 'North America', title: 'Canada' },
-  { category: 'Asia', title: 'South Korea' },
-  { category: 'Asia', title: 'Japan' },
-  { category: 'Asia', title: 'China' },
-  { category: 'Europe', title: 'Denmark' },
-  { category: 'Europe', title: 'England' },
-  { category: 'Europe', title: 'France' },
-  { category: 'Europe', title: 'Germany' },
-  { category: 'Africa', title: 'Ethiopia' },
-  { category: 'Africa', title: 'Nigeria' },
-  { category: 'Africa', title: 'Zimbabwe' },
+  { category: 'Sounds & Electronics', title: 'NIU Bass Enhancer C89' },
+  { category: 'Sounds & Electronics', title: 'Yen Speaker 290T' },
+  { category: 'Sounds & Electronics', title: 'Rhot Max D66 pro Neckband Earphone' },
+  { category: 'Bags & Luggages', title: 'Fern Hold Bag' },
+  { category: 'Camera & Shooter', title: 'Erpo Macro Camera 95G' },
+  { category: 'Camera & Shooter', title: 'Grano DSLR Camera 450A/W Lens' },
+  { category: 'Camera & Shooter', title: 'Pero Motioncapture Camera Lite 220U' },
+  { category: 'Phones', title: 'Senpi 18I Gaming Mobile Phone' },
+  { category: 'Phones', title: 'Fero 33G Android Phone' },
+  { category: 'Phones', title: 'Mu 2F Keypad JBL Mobile' },
+  { category: 'Phones', title: 'Ersoft 99P Dualboot Android Phone' },
+  { category: 'Cosmetics', title: 'Never settle 24h long lasting lipstick shade' },
+  { category: 'Cosmetics', title: 'Bluefron lipstick red bright' },
 ];
 $('.ui.search').search({
     type: 'category',
