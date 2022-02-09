@@ -18,12 +18,22 @@ body {
   background-size: cover;
 }
 
-/* .zBanners > * {
-  object-fit: fill;
-  object-position: top;
-} */
+.zbslide:hover {
+  transform: rotate(0.5deg);
+  border: 10px white;
+  animation: danceBottom;
+}
 
-.zPimg {
-  min-width: 200px;
-  min-height: 200px;
+{ animation-name: danceBottom; transform-origin: bottom }
+@keyframes danceBottom {
+    16% { transform: skew(-14deg) }
+    33% { transform: skew(12deg) }
+    49% { transform: skew(-8deg) }
+    66% { transform: skew(6deg) }
+    83% { transform: skew(-4deg) }
+}
+
+.zpimg {
+  min-width:90%;
+  min-height: 180px;
 }
