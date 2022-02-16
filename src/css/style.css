@@ -13,17 +13,41 @@ v996-008   premium
 
 body {
   padding-top: 90px;
-  background-image: url("https://images.pexels.com/photos/4202924/pexels-photo-4202924.jpeg?cs=srgb&dl=pexels-karolina-grabowska-4202924.jpg&fm=jpg");
+  /* background-image: url("https://images.pexels.com/photos/4202924/pexels-photo-4202924.jpeg?cs=srgb&dl=pexels-karolina-grabowska-4202924.jpg&fm=jpg"); */
+  background: #EAEDED;
   background-repeat: repeat;
   background-size: cover;
 }
 
+.zbslide {
+  transition: transform .2s;
+}
+
 .zbslide:hover {
-  transform: rotate(0.5deg);
-  border: 10px white;
+  filter: brightness(80%);
+  transform: scale(1.05);
 }
 
 .zpimg {
-  min-width:90%;
+  min-width: 90%;
   min-height: 180px;
+  animation: inOut 5s;
+  /* transition: transform .3s; */
+}
+
+.zpimg:hover {
+  transform: scale(0.9);
+  padding: 5px;
+  
+  transform: scale(1.1);
+}
+.card{
+  filter: brightness(96%);
+}
+.card:hover{
+  filter: brightness(100%);
+}
+
+.nav-link:hover{
+  transform: scale(1.1);
 }
