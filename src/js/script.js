@@ -55,7 +55,7 @@ var swiper = new Swiper(".mySwiper", {
       dynamicBullets: true,
     },
     autoplay: {
-      delay: 2500,
+      delay: 2000,
     },
   });
 
@@ -64,3 +64,5 @@ var loggedIn = false;
 function login(){
   loggedIn = true;
 }
+
+$('.ui.button.toggle').state();
