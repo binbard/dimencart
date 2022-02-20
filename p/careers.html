@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>DimenCart - modern era carriage</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=false">
+  <link rel="stylesheet" href="../vendor/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../vendor/sementic/semantic.min.css">
+  <link rel="stylesheet" href="../vendor/css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="../vendor/css/animate.min.css">
+  <link rel="stylesheet" href="../vendor/@mdi/font/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="../src/css/navbar.css">
+  <link rel="stylesheet" href="../src/css/swiper.css">
+  <link rel="stylesheet" href="../src/css/cards1.css">
+  <link rel="stylesheet" href="../src/css/wstyle.css">
+  <link rel="stylesheet" href="../src/css/style.css">
+</head>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" aria-label="Main navigation"
+  style="background-color:#076ae1;max-height: 7vh;padding: 0px;">
+  <div class="container align-items-center" style="margin-bottom: 0px; padding-bottom:0px">
+    <a class="navbar-brand flex-fill animate__animated animate__flipInY" href="../index.html"><span><img
+          style="width:50px;height:35px;border-radius:10%;object-fit:cover;"
+          src="../res/logo/dimencart-logo-blue-dc.jpeg"></span></a>
+    <form class="flex-fill mx-auto me-auto">
+      <div class="ui category search mx-auto">
+        <div class="ui icon input">
+          <input class="prompt" type="text" placeholder="Search Products" style="min-width:40vw;width:auto;">
+          <i class="search icon"></i>
+        </div>
+        <div class="results"></div>
+      </div>
+    </form>
+    <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+      <i class="mdi mdi-menu-open"></i>
+    </button>
+
+    <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav mb-2 mb-lg-0 mx-auto">
+        <li class="nav-item d-none" id="ic1">
+          <a class="nav-link active" aria-current="page" href="#"><i
+              class="mdi mdi-bookmark-box-multiple p-lg-0 zmbar"></i></a>
+        </li>
+        <li class="nav-item" id="ic2">
+          <a class="nav-link" href="#"><i class="mdi mdi-cart p-lg-0 zmbar"></i></a>
+        </li>
+        <li class="nav-item dropdown d-none" id="ic3">
+          <a class="nav-link" href="#"><i class="mdi mdi-bell-badge zmbar"></i></a>
+        </li>
+        <li class="nav-item dropdown d-none" id="ic4">
+          <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown"
+            aria-expanded="false"><i class="mdi mdi-account-box p-lg-0 zmbar"></i></a>
+          <ul class="dropdown-menu" aria-labelledby="dropdown01">
+            <li><a class="dropdown-item" href="#">Your Orders</a></li>
+            <li><a class="dropdown-item" onclick="logout()">Logout</a></li>
+          </ul>
+        </li>
+        <li class="nav-item" id="ic5">
+          <a class="nav-link" href="../u/login.html">
+            <!-- <i class="mdi mdi-cart p-lg-0 zmbar"></i> -->
+            <button class="ui mini btn btn-primary zmbar p-0 ps-2 pe-2 me-2">LOGIN</button>
+          </a>
+        </li>
+        <!-- <a class="nav-link" href="../login.html">
+          <div class="ui mini blue animated button p-lg-0 zmbar" tabindex="0">
+            <div class="visible content">Login</div>
+            <div class="hidden content">
+              <i class="right arrow icon p-lg-0 zmbar"></i>
+            </div>
+          </div>
+        </a> -->
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container">
+  <div class="row p-5">
+    <div class="col-lg-10 mx-auto mb-4">
+      <div class="section-title text-center ">
+        <h3 class="top-c-sep fs-1">Join us</h3>
+        <p class="fs-4">
+          We are a dedicated team of about 24 members, working in diversed feilds.
+          If you are filled with skills and passion, you are highly welcome to be part of our team.
+
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-10 mx-auto">
+      <div class="career-search mb-60">
+
+        <div class="filter-result">
+          <p class="mb-30 ff-montserrat">Total Job Openings : 4</p>
+
+          <div class="job-box d-md-flex align-items-center justify-content-between mb-30">
+            <div class="job-left my-4 d-md-flex align-items-center flex-wrap">
+              <div class="img-holder mr-md-4 pe-5 mb-md-0 mb-4 mx-auto mx-md-0 d-md-none d-lg-flex">
+                GD
+              </div>
+              <div class="job-content">
+                <h5 class="text-center text-md-left">Graphic Designer</h5>
+                <ul class="d-md-flex flex-wrap text-capitalize ff-open-sans">
+                  <li class="mr-md-4 pe-5">
+                    <i class="zmdi zmdi-pin mr-2"></i> India
+                  </li>
+                  <li class="mr-md-4 pe-5">
+                    <i class="zmdi zmdi-money mr-2"></i> 25,000-35,000/pm
+                  </li>
+                  <li class="mr-md-4 pe-5">
+                    <i class="zmdi zmdi-time mr-2"></i> Part Time
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="job-right my-4 flex-shrink-0">
+              <a href="mailto:carreers@dimencart.com" class="btn d-block w-100 d-sm-inline-block btn-light">Apply now</a>
+            </div>
+          </div>
+
+          <div class="job-box d-md-flex align-items-center justify-content-between mb-30">
+            <div class="job-left my-4 d-md-flex align-items-center flex-wrap">
+              <div class="img-holder mr-md-4 pe-5 mb-md-0 mb-4 mx-auto mx-md-0 d-md-none d-lg-flex">
+                UX
+              </div>
+              <div class="job-content">
+                <h5 class="text-center text-md-left">UI/UX Developer</h5>
+                <ul class="d-md-flex flex-wrap text-capitalize ff-open-sans">
+                  <li class="mr-md-4 pe-5">
+                    <i class="zmdi zmdi-pin mr-2"></i> India
+                  </li>
+                  <li class="mr-md-4 pe-5">
+                    <i class="zmdi zmdi-money mr-2"></i> 50,000-60,000/pm
+                  </li>
+                  <li class="mr-md-4 pe-5">
+                    <i class="zmdi zmdi-time mr-2"></i> Full Time
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="job-right my-4 flex-shrink-0">
+              <a href="mailto:carreers@dimencart.com" class="btn d-block w-100 d-sm-inline-block btn-light">Apply now</a>
+            </div>
+          </div>
+
+          <div class="job-box d-md-flex align-items-center justify-content-between mb-30">
+            <div class="job-left my-4 d-md-flex align-items-center flex-wrap">
+              <div class="img-holder mr-md-4 pe-5 mb-md-0 mb-4 mx-auto mx-md-0 d-md-none d-lg-flex">
+                GD
+              </div>
+              <div class="job-content">
+                <h5 class="text-center text-md-left">Infogrphics Designer</h5>
+                <ul class="d-md-flex flex-wrap text-capitalize ff-open-sans">
+                  <li class="mr-md-4 pe-5">
+                    <i class="zmdi zmdi-pin mr-2"></i> Remote
+                  </li>
+                  <li class="mr-md-4 pe-5">
+                    <i class="zmdi zmdi-money mr-2"></i> 25,000-35,000/pm
+                  </li>
+                  <li class="mr-md-4 pe-5">
+                    <i class="zmdi zmdi-time mr-2"></i> Part Time
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="job-right my-4 flex-shrink-0">
+              <a href="mailto:carreers@dimencart.com" class="btn d-block w-100 d-sm-inline-block btn-light">Apply now</a>
+            </div>
+          </div>
+
+          <div class="job-box d-md-flex align-items-center justify-content-between mb-30">
+            <div class="job-left my-4 d-md-flex align-items-center flex-wrap">
+              <div class="img-holder mr-md-4 pe-5 mb-md-0 mb-4 mx-auto mx-md-0 d-md-none d-lg-flex">
+                JS
+              </div>
+              <div class="job-content">
+                <h5 class="text-center text-md-left">Javascript Developer</h5>
+                <ul class="d-md-flex flex-wrap text-capitalize ff-open-sans">
+                  <li class="mr-md-4 pe-5">
+                    <i class="zmdi zmdi-pin mr-2"></i> Remote
+                  </li>
+                  <li class="mr-md-4 pe-5">
+                    <i class="zmdi zmdi-money mr-2"></i> 40,000-50,000/pm
+                  </li>
+                  <li class="mr-md-4 pe-5">
+                    <i class="zmdi zmdi-time mr-2"></i> Full Time
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="job-right my-4 flex-shrink-0">
+              <a href="mailto:carreers@dimencart.com" class="btn d-block w-100 d-sm-inline-block btn-light">Apply now</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+</div>
+
+
+
+<br><br><br><br><br><br><br><br><br>
+<hr><br><br><br><br><br>
+
+<div class="container" style="padding-left: 10vw">
+  <footer class="py-5">
+    <div class="row">
+      <div class="col-2">
+        <h5>Services</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="./" class="nav-link p-0 text-muted">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Explore</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Affiliate</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+        </ul>
+      </div>
+
+      <div class="col-2">
+        <h5>About</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Company</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Carreers</a></li>
+          <li class="nav-item mb-2"><a href="./terms-and-conditions.html" class="nav-link p-0 text-muted">Terms and Conditions</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Privacy Policy</a></li>
+        </ul>
+      </div>
+
+      <div class="col-4 offset-1">
+        <form>
+          <h5>Subscribe to our newsletter</h5>
+          <p>Monthly digest of whats new and exciting from us.</p>
+          <div class="d-xs-block d-md-flex w-100 gap-2">
+            <label for="newsletter1" class="visually-hidden">Email address</label>
+            <input id="newsletter1" type="text" class="form-control mb-1" placeholder="Email address">
+            <button class="btn btn-primary" type="button">Subscribe</button>
+          </div>
+          <div style="height: 20px"></div>
+          <div class="ui right float">
+            <a href="https://facebook.com">
+              <i class="facebook icon"></i>
+            </a>
+            <a href="https://twitter.com">
+              <i class="twitter icon"></i>
+            </a>
+            <a href="https://linkedin.com">
+              <i class="linkedin icon"></i>
+            </a>
+            <a href="https://instagram.com">
+              <i class="instagram icon"></i>
+            </a>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="d-flex justify-content-between py-4 my-4 border-top">
+      <p>&copy; 2022 DimenCart, Inc. All rights reserved.</p>
+      <ul class="list-unstyled d-flex">
+        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+              <use xlink:href="#twitter" />
+            </svg></a></li>
+        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+              <use xlink:href="#instagram" />
+            </svg></a></li>
+        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+              <use xlink:href="#facebook" />
+            </svg></a></li>
+      </ul>
+    </div>
+  </footer>
+</div>
+
+<script src="./vendor/js/jquery-3.6.0.min.js"></script>
+<script src="./vendor/js/bootstrap.bundle.min.js"></script>
+<script src="./vendor/js/semantic.min.js"></script>
+<script src="./vendor/js/swiper-bundle.min.js"></script>
+<script src="./src/js/home_products.js"></script>
+<script src="./src/js/trigo_swipe.js"></script>
+<script src="./src/js/script.js"></script>
+</body>
+
+</html>

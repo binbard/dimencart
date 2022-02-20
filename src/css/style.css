@@ -12,7 +12,7 @@ v996-008   premium
   } */
 
 body {
-  padding-top: 90px;
+  padding-top: 35px;
   /* background-image: url("https://images.pexels.com/photos/4202924/pexels-photo-4202924.jpeg?cs=srgb&dl=pexels-karolina-grabowska-4202924.jpg&fm=jpg"); */
   background: #EAEDED;
   background-repeat: repeat;
@@ -31,16 +31,15 @@ body {
 .zpimg {
   min-width: 90%;
   min-height: 180px;
+  padding: 10px;
   animation: inOut 5s;
-  /* transition: transform .3s; */
 }
 
 .zpimg:hover {
-  transform: scale(0.9);
-  padding: 5px;
-  
-  transform: scale(1.1);
+  transform: rotate(3deg);
+  transition: transform 0.69s;
 }
+
 .card{
   filter: brightness(96%);
 }
@@ -50,4 +49,12 @@ body {
 
 .nav-link:hover{
   transform: scale(1.1);
+}
+
+.o-jumbo__slide{
+  
+}
+
+#newsletter1{
+  min-width: 15vh;
 }

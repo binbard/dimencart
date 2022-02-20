@@ -1,0 +1,52 @@
+Response {type: 'cors', url: 'https://script.googleusercontent.com/macros/echo?u…_eHvFsO7PYA&lib=MSt0GIwNNEHj-hZda8tFlSdO7H43SDjVO', redirected: true, status: 200, ok: true, …}
+body: (...)
+bodyUsed: false
+headers: Headers
+[[Prototype]]: Headers
+append: ƒ append()
+delete: ƒ delete()
+entries: ƒ entries()
+forEach: ƒ forEach()
+get: ƒ ()
+has: ƒ has()
+keys: ƒ keys()
+set: ƒ ()
+values: ƒ values()
+constructor: ƒ Headers()
+Symbol(Symbol.iterator): ƒ entries()
+Symbol(Symbol.toStringTag): "Headers"
+[[Prototype]]: Object
+ok: true
+redirected: true
+status: 200
+statusText: ""
+type: "cors"
+url: "https://script.googleusercontent.com/macros/echo?user_content_key=b4iV6O9jV14EE7kL1I89yZQO3EMKlqhtRgq96KYb4TitlsZ_PxyyRP5Qubn5eMScvev0GCOBhrjCdvrztjBMo4jVUT83QBGNm5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnC9kqw32IcXcvyF377gKJrM0lH_FBmsXz16EHWdIgNso5-I0_o0OSwEWEFPqvhkXSG0F4fIumaRywcG9K7sBbz-_eHvFsO7PYA&lib=MSt0GIwNNEHj-hZda8tFlSdO7H43SDjVO"
+[[Prototype]]: Response
+arrayBuffer: ƒ arrayBuffer()
+blob: ƒ blob()
+body: (...)
+bodyUsed: (...)
+clone: ƒ clone()
+formData: ƒ formData()
+headers: (...)
+json: ƒ json()
+ok: (...)
+redirected: (...)
+status: (...)
+statusText: (...)
+text: ƒ text()
+type: (...)
+url: (...)
+constructor: ƒ Response()
+Symbol(Symbol.toStringTag): "Response"
+get body: ƒ body()
+get bodyUsed: ƒ bodyUsed()
+get headers: ƒ headers()
+get ok: ƒ ok()
+get redirected: ƒ redirected()
+get status: ƒ status()
+get statusText: ƒ statusText()
+get type: ƒ type()
+get url: ƒ url()
+[[Prototype]]: Object

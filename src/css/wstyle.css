@@ -1,0 +1,19 @@
+.t-prods__explore{
+  color: #5c5d81;
+}
+
+.t-prods__explore-footwear{
+  color: #5c5d81;
+}
+
+@media screen and (max-width: 576px) {
+  body{
+      padding:10px;
+  }
+  .t-prods__explore,.t-prods__explore-footwear{
+    margin-bottom: 20px;
+  }
+  .t-prods__explore-footwear{
+    padding-top: 60px;
+  }
+}

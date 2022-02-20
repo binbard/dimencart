@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>DimenCart - modern era carriage</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=false">
+    <link rel="stylesheet" href="../vendor/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../vendor/sementic/semantic.min.css">
+    <link rel="stylesheet" href="../vendor/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="../vendor/css/animate.min.css">
+    <link rel="stylesheet" href="../vendor/@mdi/font/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="../src/css/navbar.css">
+    <link rel="stylesheet" href="../src/css/swiper.css">
+    <link rel="stylesheet" href="../src/css/cards1.css">
+    <link rel="stylesheet" href="../src/css/wstyle.css">
+    <link rel="stylesheet" href="../src/css/style.css">
+</head>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" aria-label="Main navigation"
+    style="background-color:#076ae1;max-height: 7vh;padding: 0px;">
+    <div class="container align-items-center" style="margin-bottom: 0px; padding-bottom:0px">
+        <a class="navbar-brand flex-fill animate__animated animate__flipInY" href="../index.html"><span><img
+                    style="width:50px;height:35px;border-radius:10%;object-fit:cover;"
+                    src="../res/logo/dimencart-logo-blue-dc.jpeg"></span></a>
+        <form class="flex-fill mx-auto me-auto">
+            <div class="ui category search mx-auto">
+                <div class="ui icon input">
+                    <input class="prompt" type="text" placeholder="Search Products" style="min-width:40vw;width:auto;">
+                    <i class="search icon"></i>
+                </div>
+                <div class="results"></div>
+            </div>
+        </form>
+        <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse"
+            aria-label="Toggle navigation">
+            <i class="mdi mdi-menu-open"></i>
+        </button>
+
+        <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mb-2 mb-lg-0 mx-auto">
+                <li class="nav-item d-none" id="ic1">
+                    <a class="nav-link active" aria-current="page" href="#"><i
+                            class="mdi mdi-bookmark-box-multiple p-lg-0 zmbar"></i></a>
+                </li>
+                <li class="nav-item" id="ic2">
+                    <a class="nav-link" href="#"><i class="mdi mdi-cart p-lg-0 zmbar"></i></a>
+                </li>
+                <li class="nav-item dropdown d-none" id="ic3">
+                    <a class="nav-link" href="#"><i class="mdi mdi-bell-badge zmbar"></i></a>
+                </li>
+                <li class="nav-item dropdown d-none" id="ic4">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown"
+                        aria-expanded="false"><i class="mdi mdi-account-box p-lg-0 zmbar"></i></a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdown01">
+                        <li><a class="dropdown-item" href="#">Your Orders</a></li>
+                        <li><a class="dropdown-item" onclick="logout()">Logout</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item" id="ic5">
+                    <a class="nav-link" href="../u/login.html">
+                        <!-- <i class="mdi mdi-cart p-lg-0 zmbar"></i> -->
+                        <button class="ui mini btn btn-primary zmbar p-0 ps-2 pe-2 me-2">LOGIN</button>
+                    </a>
+                </li>
+                <!-- <a class="nav-link" href="../login.html">
+          <div class="ui mini blue animated button p-lg-0 zmbar" tabindex="0">
+            <div class="visible content">Login</div>
+            <div class="hidden content">
+              <i class="right arrow icon p-lg-0 zmbar"></i>
+            </div>
+          </div>
+        </a> -->
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<div class="entry-content p-5">
+    <h1 align="center" class="pb-4">PRIVACY POLICY</h1>
+    <p class="fs-4">Below are our Terms of Service, which outline a lot of legal goodies, but the bottom line is it’s
+        our aim to always
+        take care of both you, as a customer, or as a seller on our platform. We’ve included many of these terms to
+        legally
+        protect ourselves, but if you have an issue, always feel free to email us at mail@dimencart.com and we’ll do our
+        best to resolve it in a fair and timely fashion.</p>
+    <ol class="fs-4" style="line-height: 30px;">
+        <li><strong>What information do we collect? How do we use it?</strong>
+            <ol>
+                <li>
+                    We may collect your name, contact information including email address, demographic information such
+                    as postcode, preferences and interests and any other information relevant to customer
+
+                    This allows us to process and fulfill your orders and to notify you of your order status.
+
+                    When you voluntarily sign up for our E-mail list, we need only an e-mail address and name – which we
+                    use to send the information you requested.
+
+                    When you enter a contest or other promotional feature, we may ask for your name, address and e-mail
+                    address so we can administer the contest and notify winners.
+
+                    We monitor customer traffic patterns and site usage to help us develop the design and layout of the
+                    store.
+
+                    We may periodically send promotional email about new products, special offers or other information
+                    which we think you may find interesting using the email address which you have provided.
+
+                    From time to time, we may also use your information to contact you for market research purposes. We
+                    may contact you by email, phone, fax or mail. We may use the information to customize the website
+                    according to your interests.
+                </li>
+            </ol>
+        </li>
+        <li><strong>What about “cookies”?</strong>
+            <ol>
+                <li>“Cookies” are small pieces of information that are stored by your browser on your computer’s hard
+                    drive. </li>
+                <li>. Our cookies do not contain any personally identifying information. Most Web browsers automatically
+                    accept cookies, but you can usually change your browser to prevent that. Even without a cookie, you
+                    can still use most of the features in our store, including placing items in your shopping cart and
+                    purchasing them.</li>
+            </ol>
+        </li>
+        <li><strong>Will Dimencart disclose the information it collects to outside parties?</strong>
+            <ol>
+                <li>
+                    We will not sell, distribute or lease your personal information to third parties unless we have your
+                    permission or are required by law to do so.
+
+                    We may use your personal information to send you promotional information about third parties which
+                    we think you may find interesting if you tell us that you wish this to happen.
+                </li>
+            </ol>
+        </li>
+        <li><strong>In Summary:</strong>
+            <ol>
+                <li>Dimencart is committed to protecting your privacy. We use the information we collect on the site
+                    to make shopping at Dimencart possible and to enhance your overall shopping experience. We do
+                    not sell, trade, or rent your personal information to others.
+
+                </li>
+            </ol>
+        </li>
+        <li><strong>Support</strong>
+            <ol>
+                <li>Support for a purchase is governed by the usage license you purchase.</li>
+            </ol>
+        </li>
+        <li><strong>Your Consent:</strong>
+            <ol>
+                <li>Ownership of the product is governed by the usage licenses.</li>
+            </ol>
+        </li>
+        <li><strong>Membership &amp; Content</strong>
+            <ol>
+                <li>By using our website, you consent to the collection and use of this information by Dimencart. If
+                    we decide to change our privacy policy, we will post those changes on this page so that you are
+                    always aware of what information we collect, how we use it, and under what circumstances we disclose
+                    it.</li>
+
+                <li>If you require any more information or have any questions about our privacy policy, please feel free
+                    to contact us by email</li>
+            </ol>
+        </li>
+
+        <li><strong>Changes to Privacy policy</strong>
+            <ol>
+                <li>If we change our privacy policy of use we will post those changes on this page.</li>
+            </ol>
+        </li>
+    </ol>
+</div>
+
+
+
+<br><br><br><br><br><br><br><br><br>
+<hr><br><br><br><br><br>
+
+<div class="container" style="padding-left: 10vw">
+    <footer class="py-5">
+        <div class="row">
+            <div class="col-2">
+                <h5>Services</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="./" class="nav-link p-0 text-muted">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Explore</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Affiliate</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                </ul>
+            </div>
+
+            <div class="col-2">
+                <h5>About</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Company</a></li>
+                    <li class="nav-item mb-2"><a href="./careers.html" class="nav-link p-0 text-muted">Carreers</a></li>
+                    <li class="nav-item mb-2"><a href="./terms-and-conditions.html"
+                            class="nav-link p-0 text-muted">Terms and Conditions</a></li>
+                    <li class="nav-item mb-2"><a href="" class="nav-link p-0 text-muted">Privacy Policy</a></li>
+                </ul>
+            </div>
+
+            <div class="col-4 offset-1">
+                <form>
+                    <h5>Subscribe to our newsletter</h5>
+                    <p>Monthly digest of whats new and exciting from us.</p>
+                    <div class="d-xs-block d-md-flex w-100 gap-2">
+                        <label for="newsletter1" class="visually-hidden">Email address</label>
+                        <input id="newsletter1" type="text" class="form-control mb-1" placeholder="Email address">
+                        <button class="btn btn-primary" type="button">Subscribe</button>
+                    </div>
+                    <div style="height: 20px"></div>
+                    <div class="ui right float">
+                        <a href="https://facebook.com">
+                            <i class="facebook icon"></i>
+                        </a>
+                        <a href="https://twitter.com">
+                            <i class="twitter icon"></i>
+                        </a>
+                        <a href="https://linkedin.com">
+                            <i class="linkedin icon"></i>
+                        </a>
+                        <a href="https://instagram.com">
+                            <i class="instagram icon"></i>
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-between py-4 my-4 border-top">
+            <p>&copy; 2022 DimenCart, Inc. All rights reserved.</p>
+            <ul class="list-unstyled d-flex">
+                <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                            <use xlink:href="#twitter" />
+                        </svg></a></li>
+                <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                            <use xlink:href="#instagram" />
+                        </svg></a></li>
+                <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                            <use xlink:href="#facebook" />
+                        </svg></a></li>
+            </ul>
+        </div>
+    </footer>
+</div>
+
+<script src="./vendor/js/jquery-3.6.0.min.js"></script>
+<script src="./vendor/js/bootstrap.bundle.min.js"></script>
+<script src="./vendor/js/semantic.min.js"></script>
+<script src="./vendor/js/swiper-bundle.min.js"></script>
+<script src="./src/js/home_products.js"></script>
+<script src="./src/js/trigo_swipe.js"></script>
+<script src="./src/js/script.js"></script>
+</body>
+
+</html>

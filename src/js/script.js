@@ -1,5 +1,5 @@
 /* bs offbar */
-var mswiper = document.querySelector(".swiper");
+
 (function () {
     'use strict'
     document.querySelector('#navbarSideCollapse').addEventListener('click', function () {
@@ -7,21 +7,22 @@ var mswiper = document.querySelector(".swiper");
     })
   })()
 
+// var mswiper = document.querySelector(".swiper");
 // /* fix swiper offbar index*/
-var z0=0;
-var mswiper = document.querySelector(".swiper");
-var minput = document.querySelector("input");
-document.querySelector('#navbarSideCollapse').addEventListener("click", function(){
-  if(z0==0){
-    z0=-1;mswiper.setAttribute('style','z-index: -1');}
-  else if(z0=='-1'){
-    z0=0;mswiper.setAttribute('style','z-index: 0');}
-});
+// var z0=0;
+// var mswiper = document.querySelector(".swiper");
+// var minput = document.querySelector("input");
+// document.querySelector('#navbarSideCollapse').addEventListener("click", function(){
+//   if(z0==0){
+//     z0=-1;mswiper.setAttribute('style','z-index: -1');}
+//   else if(z0=='-1'){
+//     z0=0;mswiper.setAttribute('style','z-index: 0');}
+// });
 
 /* navbar ux */
-function menuNavClicked(e){
-  e.setAttribute('class','');
-}
+// function menuNavClicked(e){
+//   e.setAttribute('class','');
+// }
 
 /* search bar */
 var categoryContent = [
@@ -60,9 +61,32 @@ var swiper = new Swiper(".mySwiper", {
   });
 
 /* user ui */
-var loggedIn = false;
-function login(){
-  loggedIn = true;
+
+function refreshPage(){
+  location.reload();
+}
+
+var loggedIn = localStorage.getItem('isLoggedIn');
+var username = localStorage.getItem('username');
+if(loggedIn===null){
+  console.log("user is not logged in");
+}
+else{
+  document.querySelector("#ic1").classList.remove("d-none");
+  document.querySelector("#ic3").classList.remove("d-none");
+  document.querySelector("#ic4").classList.remove("d-none");
+  document.querySelector("#ic5").classList.add("d-none");
+  username="okk";
+  document.querySelector("#i-nav__uname").innerHTML(username);
+}
+
+function logout(){
+  localStorage.removeItem('isLoggedIn');
+  refreshPage();
+  // document.querySelector("#ic1").classList.add("d-none");
+  // document.querySelector("#ic3").classList.add("d-none");
+  // document.querySelector("#ic4").classList.add("d-none");
+  // document.querySelector("#ic5").classList.remove("d-none");
 }
 
 $('.ui.button.toggle').state();
