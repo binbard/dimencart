@@ -30,9 +30,15 @@ body {
 
 .zpimg {
   min-width: 90%;
-  min-height: 180px;
+  min-height: 190px;
   padding: 10px;
   animation: inOut 5s;
+}
+
+@media screen and (max-width: 576px) {
+  .zpimg{
+    min-height: 130px;
+  }
 }
 
 .zpimg:hover {
@@ -40,21 +46,20 @@ body {
   transition: transform 0.69s;
 }
 
-.card{
+.card {
   filter: brightness(96%);
 }
-.card:hover{
+
+.card:hover {
   filter: brightness(100%);
 }
 
-.nav-link:hover{
+.nav-link:hover {
   transform: scale(1.1);
 }
 
-.o-jumbo__slide{
-  
-}
+/* .o-jumbo__slide {} */
 
-#newsletter1{
+#newsletter1 {
   min-width: 15vh;
 }

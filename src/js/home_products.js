@@ -1,2 +1,2 @@
-const products= require('./products.json');
-console.log(products);
+// const products= require('./products.json');
+// console.log(productList);

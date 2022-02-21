@@ -76,8 +76,7 @@ else{
   document.querySelector("#ic3").classList.remove("d-none");
   document.querySelector("#ic4").classList.remove("d-none");
   document.querySelector("#ic5").classList.add("d-none");
-  username="okk";
-  document.querySelector("#i-nav__uname").innerHTML(username);
+  document.querySelector("#i-nav__uname").innerHTML="Hi "+username;
 }
 
 function logout(){

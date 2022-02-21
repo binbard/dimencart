@@ -4,15 +4,14 @@
 <head>
   <title>DimenCart - modern era carriage</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=false">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
   <link rel="stylesheet" href="./vendor/css/bootstrap.min.css">
   <link rel="stylesheet" href="./vendor/sementic/semantic.min.css">
   <link rel="stylesheet" href="./vendor/css/swiper-bundle.min.css">
-  <link rel="stylesheet" href="./vendor/css/animate.css/animate.min.css">
+  <link rel="stylesheet" href="./vendor/css/animate.min.css">
   <link rel="stylesheet" href="./vendor/@mdi/font/css/materialdesignicons.min.css">
   <link rel="stylesheet" href="./src/css/navbar.css">
   <link rel="stylesheet" href="./src/css/swiper.css">
-  <link rel="stylesheet" href="./src/css/cards1.css">
   <link rel="stylesheet" href="./src/css/wstyle.css">
   <link rel="stylesheet" href="./src/css/style.css">
 </head>
@@ -53,6 +52,7 @@
           <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown"
             aria-expanded="false"><i class="mdi mdi-account-box p-lg-0 zmbar"></i></a>
           <ul class="dropdown-menu" aria-labelledby="dropdown01">
+            <li><a class="dropdown-item" href="#" id="i-nav__uname">Hi</a></li>
             <li><a class="dropdown-item" href="#">Your Orders</a></li>
             <li><a class="dropdown-item" onclick="logout()">Logout</a></li>
           </ul>
@@ -129,264 +129,28 @@
 <div class="ui grid m-lg-5">
   <div class="doubling four column row 1">
 
-    <div class="column">
-      <div class="doubling eight column row ui card">
-        <div class="content">
-          <div class="left floated meta">QW Notebook 5 Max</div>
-          <img class="zpimg ui avatar image" src="res\products\1.jpg">
-          <div class="ui tag labels">
-            <a class="ui label">
-              ₹38,999
-            </a>
-            <span class="right floated like">
-              <a link="">
-                <i class="like icon"></i>
-                Wishlist
-              </a>
-            </span>
-          </div>
+    <div class="column" id="pcard1"></div>
+    <div class="column" id="pcard2"></div>
+    <div class="column" id="pcard3"></div>
+    <div class="column" id="pcard4"></div>
 
-        </div>
-        <div class="image">
-          <img>
-        </div>
-        <div class="content">
-          <div class="left floated ui star rating" data-rating="4"></div>
-          <span class="right floated like">
-            <i class="cart arrow down"></i>
-            <div class="ui mini button">Add to cart</div>
-          </span>
-        </div>
-      </div>
-    </div>
-
-    <div class="column">
-      <div class="doubling eight column row ui card">
-        <div class="content">
-          <div class="left floated meta">Wivi Pro 650 Mobile</div>
-          <img class="zpimg ui avatar image" src="res\products\2phone.jfif">
-          <a class="ui right corner label">
-            <i class="heart icon"></i>
-          </a>
-          <div class="ui tag labels">
-            <a class="ui label">
-              ₹8,999
-            </a>
-            <span class="right floated like">
-              <a link="">
-                <i class="like icon"></i>
-                Wishlist
-              </a>
-            </span>
-          </div>
-        </div>
-        <div class="image">
-          <img>
-        </div>
-        <div class="content">
-          <div class="left floated ui star rating" data-rating="3"></div>
-          <span class="right floated like">
-            <i class="cart arrow down"></i>
-            <div class="ui mini button">Add to cart</div>
-          </span>
-        </div>
-      </div>
-    </div>
-
-    <div class="column">
-      <div class="doubling eight column row ui card">
-        <div class="content">
-          <div class="left floated meta">NG Resso outbound neckband </div>
-          <img class="zpimg ui avatar image" src="res\products\qw_neckband_g220.jpg">
-          <div class="ui tag labels">
-            <a class="ui label">
-              ₹699
-            </a>
-            <span class="right floated like">
-              <a link="">
-                <i class="like icon"></i>
-                Wishlist
-              </a>
-            </span>
-          </div>
-        </div>
-        <div class="image">
-          <img>
-        </div>
-        <div class="content">
-          <div class="left floated ui star rating" data-rating="3"></div>
-          <span class="right floated like">
-            <i class="cart arrow down"></i>
-            <div class="ui mini button">Add to cart</div>
-          </span>
-        </div>
-      </div>
-    </div>
-
-    <div class="column">
-      <div class="doubling eight column row ui card">
-        <div class="content">
-          <div class="left floated meta">Grano NXT Camera 450A/W</div>
-          <img class="zpimg ui avatar image" src="res\products\camera 1.jpg">
-          <div class="ui tag labels">
-            <a class="ui label">
-              ₹18,999
-            </a>
-            <span class="right floated like">
-              <a link="">
-                <i class="like icon"></i>
-                Wishlist
-              </a>
-            </span>
-          </div>
-        </div>
-        <div class="image">
-          <img>
-        </div>
-        <div class="content">
-          <div class="left floated ui star rating" data-rating="4"></div>
-          <span class="right floated like">
-            <i class="cart arrow down"></i>
-            <div class="ui mini button">Add to cart</div>
-          </span>
-        </div>
-      </div>
-    </div>
   </div>
 </div>
 
 <hr>
 
 <div class="animate__animated animate__bounceInLeft ms-3 ms-lg-5 mb-sm-5 ">
-  <h1 class="t-prods__explore-footwear">Let your footwears say</h1>
+  <h1 class="t-prods__explore pt-5 pb-1">Let your footwears say</h1>
 </div>
 
 <div class="ui grid m-lg-5">
   <div class="doubling four column row 1">
 
-    <div class="column">
-      <div class="doubling eight column row ui card">
-        <div class="content">
-          <div class="left floated meta">Erisso Navy Sneakers</div>
-          <img class="zpimg ui avatar image" src="res\products\hipster-958805_1920.jpg">
-          <div class="ui tag labels">
-            <a class="ui label">
-              ₹38,999
-            </a>
-            <span class="right floated like">
-              <a link="">
-                <i class="like icon"></i>
-                Wishlist
-              </a>
-            </span>
-          </div>
+    <div class="column" id="pcard5"></div>
+    <div class="column" id="pcard6"></div>
+    <div class="column" id="pcard7"></div>
+    <div class="column" id="pcard8"></div>
 
-        </div>
-        <div class="image">
-          <img>
-        </div>
-        <div class="content">
-          <div class="left floated ui star rating" data-rating="4"></div>
-          <span class="right floated like">
-            <i class="cart arrow down"></i>
-            <div class="ui mini button">Add to cart</div>
-          </span>
-        </div>
-      </div>
-    </div>
-
-    <div class="column">
-      <div class="doubling eight column row ui card">
-        <div class="content">
-          <div class="left floated meta">PUMA Jaro SQ Slippers</div>
-          <img class="zpimg ui avatar image" src="res\products\5shoe.jfif">
-          <a class="ui right corner label">
-            <i class="heart icon"></i>
-          </a>
-          <div class="ui tag labels">
-            <a class="ui label">
-              ₹8,999
-            </a>
-            <span class="right floated like">
-              <a link="">
-                <i class="like icon"></i>
-                Wishlist
-              </a>
-            </span>
-          </div>
-        </div>
-        <div class="image">
-          <img>
-        </div>
-        <div class="content">
-          <div class="left floated ui star rating" data-rating="3"></div>
-          <span class="right floated like">
-            <i class="cart arrow down"></i>
-            <div class="ui mini button">Add to cart</div>
-          </span>
-        </div>
-      </div>
-    </div>
-
-    <div class="column">
-      <div class="doubling eight column row ui card">
-        <div class="content">
-          <div class="left floated meta">Puma Evo comet Black shoes</div>
-          <img class="zpimg ui avatar image" src="res\products\3shoe.jfif">
-          <div class="ui tag labels">
-            <a class="ui label">
-              ₹699
-            </a>
-            <span class="right floated like">
-              <a link="">
-                <i class="like icon"></i>
-                Wishlist
-              </a>
-            </span>
-          </div>
-        </div>
-        <div class="image">
-          <img>
-        </div>
-        <div class="content">
-          <div class="left floated ui star rating" data-rating="3"></div>
-          <span class="right floated like">
-            <i class="cart arrow down"></i>
-            <div class="ui mini button">Add to cart</div>
-          </span>
-        </div>
-      </div>
-    </div>
-
-    <div class="column">
-      <div class="doubling eight column row ui card">
-        <div class="content">
-          <div class="left floated meta">Grano NXT Camera 450A/W</div>
-          <img class="zpimg ui avatar image" src="res\products\Trigger-Unisex-Shoes (3).jfif">
-          <div class="ui tag labels">
-            <a class="ui label">
-              ₹18,999
-            </a>
-            <span class="right floated like">
-              <a link="">
-                <i class="like icon"></i>
-                Wishlist
-              </a>
-            </span>
-          </div>
-        </div>
-        <div class="image">
-          <img>
-        </div>
-        <div class="content">
-          <div class="left floated ui star rating" data-rating="4"></div>
-          <span class="right floated like">
-            <i class="cart arrow down"></i>
-            <div class="ui mini button">Add to cart</div>
-          </span>
-        </div>
-      </div>
-    </div>
   </div>
 </div>
 
@@ -394,7 +158,7 @@
 <hr>
 
 <div class="animate__animated animate__bounceInLeft ms-3 ms-lg-5 mb-sm-5 ">
-  <h1 class="t-prods__explore-footwear">Explore quality Garments</h1>
+  <h1 class="t-prods__explore pt-5 pb-0">Explore quality Garments</h1>
 </div>
 
 <div class="ui grid m-lg-5">
@@ -528,8 +292,8 @@
 
 <hr>
 
-<div class="animate__animated animate__bounceInLeft ms-3 ms-lg-5 mb-sm-5 t-prods__explore">
-  <h1>Explore popular digital products</h1>
+<div class="animate__animated animate__bounceInLeft ms-3 ms-lg-5 mb-sm-5e">
+  <h1 class=" t-prods__explor pt-5 pb-1">Explore popular digital products</h1>
 </div>
 
 <div class="ui grid m-lg-5">
@@ -664,7 +428,7 @@
 <hr>
 
 <div class="animate__animated animate__bounceInLeft ms-3 ms-lg-5 mb-sm-5 ">
-  <h1 class="t-prods__explore-footwear">Let your footwears say</h1>
+  <h1 class="t-prods__explore pt-5 pb-1">Let your footwears say</h1>
 </div>
 
 <div class="ui grid m-lg-5">
@@ -805,7 +569,7 @@
           <div class="col-2">
               <h5>Services</h5>
               <ul class="nav flex-column">
-                  <li class="nav-item mb-2"><a href="./" class="nav-link p-0 text-muted">Home</a></li>
+                  <li class="nav-item mb-2"><a href="./index.html" class="nav-link p-0 text-muted">Home</a></li>
                   <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Explore</a></li>
                   <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Affiliate</a></li>
                   <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
@@ -868,7 +632,7 @@
   </footer>
 </div>
 
-
+<script src="./src/js/products.js"></script>
 <script src="./vendor/js/jquery-3.6.0.min.js"></script>
 <script src="./vendor/js/bootstrap.bundle.min.js"></script>
 <script src="./vendor/js/semantic.min.js"></script>

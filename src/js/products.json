@@ -1,50 +1,50 @@
 {
-    "1": {
-        "pid": "UVcgTm90ZWJvb2sgNSBNYXg",
-        "name": "QW Notebook 5 Max",
-        "price": "₹38,999",
-        "pimg": "/res/products/1.jpg"
-    },
-    "2": {
-        "pid": "UVcgTm90ZWJvb2sgNSBNYXg",
-        "name": "Wivi Pro 650 Mobile",
-        "price": "₹8,999",
-        "pimg": "/res/products/2phone.jfif"
-    },
-    "3": {
-        "pid": "UVcgTm90ZWJvb2sgNSBNYXg",
-        "name": "NG Resso outbound neckband",
-        "price": "₹699",
-        "pimg": "/res/products/qw_neckband_g220.jpg"
-    },
-    "4": {
-        "pid": "UVcgTm90ZWJvb2sgNSBNYXg",
-        "name": "QW Notebook 5 Max",
-        "price": "₹18,999",
-        "pimg": "/res/products/camera%201.jpg"
-    },
-    "5": {
-        "pid": "UVcgTm90ZWJvb2sgNSBNYXg",
-        "name": "QW Notebook 5 Max",
-        "price": "₹38,999",
-        "pimg": "/res/products/1.jpg"
-    },
-    "6": {
-        "pid": "UVcgTm90ZWJvb2sgNSBNYXg",
-        "name": "QW Notebook 5 Max",
-        "price": "₹38,999",
-        "pimg": "/res/products/1.jpg"
-    },
-    "7": {
-        "pid": "UVcgTm90ZWJvb2sgNSBNYXg",
-        "name": "QW Notebook 5 Max",
-        "price": "₹38,999",
-        "pimg": "/res/products/1.jpg"
-    },
-    "8": {
-        "pid": "UVcgTm90ZWJvb2sgNSBNYXg",
-        "name": "QW Notebook 5 Max",
-        "price": "₹38,999",
-        "pimg": "/res/products/1.jpg"
+        "1": {
+            "pid": "UVcgTm90ZWJvb2sgNSBNYXg",
+            "name": "QW Notebook 5 Max",
+            "price": "₹38,999",
+            "pimg": "/res/products/1.jpg"
+        },
+        "2": {
+            "pid": "UVcgTm90ZWJvb2sgNSBNYXg",
+            "name": "Wivi Pro 650 Mobile",
+            "price": "₹8,999",
+            "pimg": "/res/products/2phone.jfif"
+        },
+        "3": {
+            "pid": "UVcgTm90ZWJvb2sgNSBNYXg",
+            "name": "NG Resso outbound neckband",
+            "price": "₹699",
+            "pimg": "/res/products/qw_neckband_g220.jpg"
+        },
+        "4": {
+            "pid": "UVcgTm90ZWJvb2sgNSBNYXg",
+            "name": "QW Notebook 5 Max",
+            "price": "₹18,999",
+            "pimg": "/res/products/camera%201.jpg"
+        },
+        "5": {
+            "pid": "UVcgTm90ZWJvb2sgNSBNYXg",
+            "name": "QW Notebook 5 Max",
+            "price": "₹38,999",
+            "pimg": "/res/products/1.jpg"
+        },
+        "6": {
+            "pid": "UVcgTm90ZWJvb2sgNSBNYXg",
+            "name": "QW Notebook 5 Max",
+            "price": "₹38,999",
+            "pimg": "/res/products/1.jpg"
+        },
+        "7": {
+            "pid": "UVcgTm90ZWJvb2sgNSBNYXg",
+            "name": "QW Notebook 5 Max",
+            "price": "₹38,999",
+            "pimg": "/res/products/1.jpg"
+        },
+        "8": {
+            "pid": "UVcgTm90ZWJvb2sgNSBNYXg",
+            "name": "QW Notebook 5 Max",
+            "price": "₹38,999",
+            "pimg": "/res/products/1.jpg"
+        }
     }
-}

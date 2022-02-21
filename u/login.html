@@ -12,7 +12,6 @@
   <link rel="stylesheet" href="../vendor/@mdi/font/css/materialdesignicons.min.css">
   <link rel="stylesheet" href="../src/css/navbar.css">
   <link rel="stylesheet" href="../src/css/swiper.css">
-  <link rel="stylesheet" href="../src/css/cards1.css">
   <link rel="stylesheet" href="../src/css/wstyle.css">
   <link rel="stylesheet" href="../src/css/style.css">
 </head>
@@ -80,8 +79,8 @@
 <div class="container o-login__section">
   <div class="row">
     <div class="col-md-6 offset-md-3">
-      <h2 class="text-center text-dark mt-5">User Login</h2>
-      <div class="text-center mb-5 text-dark">to continue to dimencart</div>
+      <h2 class="text-center text-dark mt-5" id="i-login__lgbox-ulogin">User Login</h2>
+      <div class="text-center mb-5 text-dark" id="i-login__lgbox-continue">to continue to dimencart</div>
       <div class="card my-5">
 
         <form id="login-form" name="login-form" class="card-body cardbody-color p-lg-5">
@@ -103,11 +102,15 @@
           </div>
 
           <div class="text-center">
-            <button onclick="ulogin()" id="submit" class="btn btn-color ui button blue px-5 mb-5 w-100">Login</button></div>
+            <button onclick="ulogin()" id="submit" class="btn btn-color ui button blue px-5 mb-5 w-100">Login</button>
+          </div>
+
           <div id="emailHelp" class="form-text text-center mb-5 text-dark">Not Registered?
             <a href="./login.html" class="text-dark fw-bold "><u>Sign in</u></a>
           </div>
+
         </form>
+
       </div>
 
     </div>

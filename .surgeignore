@@ -1,0 +1,7 @@
+.cache/
+.vscode/
+extra/
+node_modules/
+purgecss.config.js
+package-lock.json
+.git/
