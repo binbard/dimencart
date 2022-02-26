@@ -1,11 +1,11 @@
 /* bs offbar */
 
 (function () {
-    'use strict'
-    document.querySelector('#navbarSideCollapse').addEventListener('click', function () {
-      document.querySelector('.offcanvas-collapse').classList.toggle('open');
-    })
-  })()
+  'use strict'
+  document.querySelector('#navbarSideCollapse').addEventListener('click', function () {
+    document.querySelector('.offcanvas-collapse').classList.toggle('open');
+  })
+})()
 
 // var mswiper = document.querySelector(".swiper");
 // /* fix swiper offbar index*/
@@ -41,46 +41,59 @@ var categoryContent = [
   { category: 'Cosmetics', title: 'Bluefron lipstick red bright' },
 ];
 $('.ui.search').search({
-    type: 'category',
-    source: categoryContent
-  });
-  
+  type: 'category',
+  source: categoryContent
+});
+
 
 /* swiper view */
 var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 1,
-    spaceBetween: 10,
-    loop: true,
-    pagination: {
-      el: ".swiper-pagination",
-      dynamicBullets: true,
-    },
-    autoplay: {
-      delay: 2000,
-    },
-  });
+  slidesPerView: 1,
+  spaceBetween: 10,
+  loop: true,
+  pagination: {
+    el: ".swiper-pagination",
+    dynamicBullets: true,
+  },
+  autoplay: {
+    delay: 2000,
+  },
+});
 
 /* user ui */
 
-function refreshPage(){
+function refreshPage() {
   location.reload();
 }
 
-var loggedIn = localStorage.getItem('isLoggedIn');
-var username = localStorage.getItem('username');
-if(loggedIn===null){
-  console.log("user is not logged in");
-}
-else{
-  document.querySelector("#ic1").classList.remove("d-none");
-  document.querySelector("#ic3").classList.remove("d-none");
-  document.querySelector("#ic4").classList.remove("d-none");
-  document.querySelector("#ic5").classList.add("d-none");
-  document.querySelector("#i-nav__uname").innerHTML="Hi "+username;
+var cart = JSON.parse(localStorage.getItem('cart'))
+var wlist = JSON.parse(localStorage.getItem('wlist'))
+
+if (cart === null) {
+  cart={}
+  localStorage.setItem('cart', JSON.stringify(cart))
 }
 
-function logout(){
-  localStorage.removeItem('isLoggedIn');
+if (wlist === null) {
+  wlist={}
+  localStorage.setItem('wlist', JSON.stringify(wlist))
+}
+
+var loggedIn = localStorage.getItem('isLoggedIn')
+var username = localStorage.getItem('username')
+if (loggedIn === null) {
+  console.log("user is not logged in")
+}
+else {
+  document.querySelector("#ic1").classList.remove("d-none")
+  document.querySelector("#ic3").classList.remove("d-none")
+  document.querySelector("#ic4").classList.remove("d-none")
+  document.querySelector("#ic5").classList.add("d-none")
+  document.querySelector("#i-nav__uname").innerHTML = "Hi " + username
+}
+
+function logout() {
+  localStorage.removeItem('isLoggedIn')
   refreshPage();
   // document.querySelector("#ic1").classList.add("d-none");
   // document.querySelector("#ic3").classList.add("d-none");
@@ -88,4 +101,4 @@ function logout(){
   // document.querySelector("#ic5").classList.remove("d-none");
 }
 
-$('.ui.button.toggle').state();
+$('.ui.button.toggle').state()
