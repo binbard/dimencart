@@ -36,6 +36,12 @@ body {
 }
 
 @media screen and (max-width: 576px) {
+
+/* side margins to make mobile version look cleaner */
+body {
+  margin-left: 10px;
+  margin-right: 10px;
+}
   .zpimg{
     min-height: 130px;
   }
@@ -50,6 +56,11 @@ body {
   filter: brightness(96%);
 }
 
+/* add space above to give a little room between grid and header */
+.ui.grid {
+  margin-top: 20px;
+} 
+
 .card:hover {
   filter: brightness(100%);
 }
@@ -62,4 +73,8 @@ body {
 
 #newsletter1 {
   min-width: 15vh;
+}
+
+.offcanvas-collapse, .open {
+  background: #076ae1;
 }
