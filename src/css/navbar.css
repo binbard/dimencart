@@ -96,3 +96,23 @@
   justify-content: center;
   align-items: center;
 }
+
+.navigation{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation a{
+  float: left;
+  margin-top: 10px;
+  padding: 20px 60px;
+  font-size: 20px;
+  color:#021d3a;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation a:hover{
+  background: rgb(184, 174, 174);
+}
