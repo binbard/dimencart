@@ -102,3 +102,4 @@ function logout() {
 }
 
 $('.ui.button.toggle').state()
+
