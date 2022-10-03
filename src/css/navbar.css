@@ -4,20 +4,25 @@
     top: 56px;
     /* Height of navbar */
     /* bottom: 0; */
-    left: 100%;
-    width: 100%;
+    /*left: 100%;*/
+    /*width: 100%;*/
+    width: fit-content;
+    right: 0;
     padding-right: 1rem;
     padding-left: 1rem;
     overflow-y: auto;
-    visibility: hidden;
+    /*visibility: hidden;*/
     background-color: #ffffff;
-    transition: transform .3s ease-in-out, visibility .1s ease-in-out;
+    transition-duration: .5s;
+    /*transition: transform .3s ease-in-out, visibility .1s ease-in-out;*/
     background-color: transparent;
+    opacity: 0;
   }
 
   .offcanvas-collapse.open {
-    visibility: visible;
-    transform: translateX(-50%);
+    /*visibility: visible;*/
+    opacity: 1;
+    transform: translateX(-20%);
     /* padding-left: 100px; */
   }
 }
@@ -40,8 +45,9 @@
 
 @media screen and (max-width: 992px) {
   .zmbar {
-    padding:2px;
-    margin-left: 32vw;
+    padding: 2px;
+    right: 0px;
+    /*margin-left: 32vw;*/
     border-radius: 20%;
   }
 }
