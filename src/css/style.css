@@ -7,17 +7,27 @@ v996-008   premium
 */
 
 /* @font-face {
-    font-family: magilio;
-    src: url("../../res/fonts/MagilioRegular-8Mxvg.otf");
-  } */
+  font-family: magilio;
+  src: url("../../res/fonts/MagilioRegular-8Mxvg.otf");
+} */
+
+:root{
+  --primary-color: #ffffff; 
+  --secondary-color:  #000000ec;
+}
+
+h1{
+  color:var(--secondary-color)
+}
 
 body {
   padding-top: 35px;
   /* background-image: url("https://images.pexels.com/photos/4202924/pexels-photo-4202924.jpeg?cs=srgb&dl=pexels-karolina-grabowska-4202924.jpg&fm=jpg"); */
-  background: #EAEDED;
+  background: var(--primary-color);
   background-repeat: repeat;
   background-size: cover;
 }
+
 
 .zbslide {
   transition: transform .2s;
@@ -62,4 +72,19 @@ body {
 
 #newsletter1 {
   min-width: 15vh;
+}
+
+#icon{
+  width : 30px;
+margin: 10px;
+}
+
+
+
+footer{
+  color:var(--secondary-color) ;
+}
+.dark-theme{
+  --primary-color: #000000ec;
+  --secondary-color:  #ffffff;
 }
