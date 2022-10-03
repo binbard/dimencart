@@ -19,6 +19,24 @@ body {
   background-size: cover;
 }
 
+.menu ul {
+  display: inline-flex;
+  list-style: none;
+}
+ 
+.menu ul li {
+  width: 120px;
+  margin: 10px;
+  font-size: larger;
+  margin-top: 20px;
+}
+
+.active, .menu ul li :hover {
+  background-color: rgb(220, 220, 236);
+  border-radius: 3px;
+  }
+
+
 .zbslide {
   transition: transform .2s;
 }
@@ -63,3 +81,92 @@ body {
 #newsletter1 {
   min-width: 15vh;
 }
+
+.menu .fa {
+  margin-left: 7px;
+
+}
+
+.submenu-1{
+  display: none;
+
+}
+.menu ul li:hover .submenu-1{
+  display: block;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: -10px;
+  background: rgb(252, 252, 255); 
+  font-size: small;
+  
+}
+
+.submenu-3{
+  display: none;
+}
+
+.submenu-4{
+  display: none;
+}
+
+.submenu-2{
+  display: none;
+}
+
+.menu ul li:hover .submenu-2{
+  display: block;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: -10px;
+  background: rgb(252, 252, 255); 
+  font-size: small;
+  color: #5c5d81;
+}
+
+.menu ul li:hover .submenu-3{
+  display: block;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: -10px;
+  background: rgb(252, 252, 255); 
+  font-size: small;
+  color: #5c5d81;
+}
+
+
+  .menu ul li:hover .submenu-4{
+    display: block;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -10px;
+    background: rgb(252, 252, 255); 
+    font-size: small;
+    color: #5c5d81;
+  }
+
+  .menu ul li:hover .submenu-5{
+    display: block;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -10px;
+    background: rgb(252, 252, 255); 
+    font-size: small;
+    color: #5c5d81;
+  }
+
+  .menu ul li:hover .submenu-6{
+    display: block;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -10px;
+    background: rgb(252, 252, 255); 
+    font-size: small;
+    color: #5c5d81;
+  }
+
+  .submenu-5{
+    display: none;
+  }
+  .submenu-6{
+    display: none;
+  }
