@@ -1,13 +1,18 @@
 @media (max-width: 991.98px) {
   .offcanvas-collapse {
     position: fixed;
-    top: 56px;
+    top: 15%;
+    right: 0;
+    padding-top: 20px;
+    margin-right: 1%;
+    background-color: rgba(255, 255, 255, .5) !important;
+    border-radius: 7px;
     /* Height of navbar */
     /* bottom: 0; */
-    left: 100%;
-    width: 100%;
-    padding-right: 1rem;
-    padding-left: 1rem;
+    /* left: 100%; */
+    width: 100px;
+    /* padding-right: 1rem;
+    padding-left: 1rem; */
     overflow-y: auto;
     visibility: hidden;
     background-color: #ffffff;
@@ -17,7 +22,7 @@
 
   .offcanvas-collapse.open {
     visibility: visible;
-    transform: translateX(-50%);
+    transform: translateX(-10%);
     /* padding-left: 100px; */
   }
 }
@@ -40,9 +45,9 @@
 
 @media screen and (max-width: 992px) {
   .zmbar {
-    padding:2px;
-    margin-left: 32vw;
-    border-radius: 20%;
+    padding:4px 10px;
+    border-radius: 4px;
+    margin: 0 !important;
   }
 }
 
@@ -84,4 +89,9 @@
 
 .bg-purple {
   background-color: #6f42c1;
+}
+.nav-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
