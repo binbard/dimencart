@@ -22,48 +22,85 @@ Suggestions for contributions, but are not limited to...
 ✔ Fix issues in the mobile screen (ex - existing navbar tab having issue in the mobile screen)
 ```
 
-## How to Contribute
+# CONTRIBUTION GUIDE
 
-1. First up you need to fork (make a copy) of this repo to your Github account.
-2. Clone (download) your fork to your computer
-```
-git clone https://github.com/<your-username>/dimencart.git
-```
-Now cd in to the directory that just got created with the name <code>dimencart</code> 
+If you are new to open-source contribution and don't know how to get started, don't worry, this is a deatiled step by step guide to help you make your first contribution.
 
-3. Set your streams so you can sync your clone with the original repo (get the latest updates)
-```
-git remote add upstream https://github.com/<your-username>/dimencart.git
-git pull upstream master
-```
-The above 2 commands will synchronize your forked version of the project with the actual repository.
+Before heading any further, open terminal and run `git --version` to make sure that git is installed on your machine, if not, install it from [here](https://git-scm.com/downloads).
 
-4. Make your contribution in the code or docs. Save the files.
+## Fork this repository
 
-5. Now in the CLI write the following command
-```
-git status
-```
-This will show you the files which have been modified or new files which have been added by you
+In order to make any changes to this repository, fork it by clicking on the fork button. This will create a copy of this repository in your account.
 
-6. You need to add these files before you commit them
+## Clone the repository
+
+Now, to clone this repository to your local machine, copy the url of the forked repository.
+
+Now, open a terminal and run the following command:
+
+```
+git clone <copied- url>
+```
+Here, replace `<copied-url>` with the url of the forked repository you just copied.
+
+## Create a branch
+
+After cloning the repository, change the current working directory to the repository directory by running the following command:
+
+
+```
+cd dimencart
+```
+Before making any changes, make sure to always create a new branch. To create a new brach run the following command:
+
+```
+git checkout -b branch-name
+```
+You can run `git branch` command to check your branch status.
+
+## Make changes
+
+Now you are all set to make changes. For that you can use any text editor, but I will recommend using Vs Code as it feature rich and easy to use. If VS Code is already installed on your machine, run the following command:
+
+```
+code .
+```
+It will open all the files in VS Code.
+
+After making the changes, run `git status` command. It will show you all the changes you have made.
+
+## Commit those changes
+
+Now, before commiting the changes you will have to add those changes to the branch you created. For that run the following command:
 ```
 git add .
+````
+Now commit those changes by running the following command:
 ```
-7. Commit these files with an appropriate message
+git commit -m "put-your-message-here"
 ```
-git commit -m "some-message"
-```
-8. Now push these files
-```
-git push
-```
-9. Now refresh your github account page, open the dimencart repository.
 
-10. Click on `contribute` and click `open pull request`.
+## Push to GitHub
 
-11. Write an appropriate comment and click `create pull request`.
+Finally push the changes you made to github by running the following command:
 
+```
+git push origin -u <your-branch-name>
+```
+
+Replace `<your-branch-name>` with the name of the branch you created earlier.
+
+## Submit the pull request
+
+Now open your browser, here you will see a notification. Juslt click on **compare & pull request**.
+
+Now submit the pull request.
+
+Soon your pull request will be reviewed and merged. You will be notified via email once your pull request has been merged.
+
+Congratulations!! You have successfully raised your first pull request. Share on your socials.
+
+**Happy Contributing!!**
 
 
 
