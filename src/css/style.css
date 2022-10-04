@@ -7,17 +7,27 @@ v996-008   premium
 */
 
 /* @font-face {
-    font-family: magilio;
-    src: url("../../res/fonts/MagilioRegular-8Mxvg.otf");
-  } */
+  font-family: magilio;
+  src: url("../../res/fonts/MagilioRegular-8Mxvg.otf");
+} */
+
+:root{
+  --primary-color: #ffffff; 
+  --secondary-color:  #000000ec;
+}
+
+h1{
+  color:var(--secondary-color)
+}
 
 body {
   padding-top: 35px;
   /* background-image: url("https://images.pexels.com/photos/4202924/pexels-photo-4202924.jpeg?cs=srgb&dl=pexels-karolina-grabowska-4202924.jpg&fm=jpg"); */
-  background: #EAEDED;
+  background: var(--primary-color);
   background-repeat: repeat;
   background-size: cover;
 }
+
 
 .zbslide {
   transition: transform .2s;
@@ -36,12 +46,6 @@ body {
 }
 
 @media screen and (max-width: 576px) {
-
-/* side margins to make mobile version look cleaner */
-body {
-  margin-left: 10px;
-  margin-right: 10px;
-}
   .zpimg{
     min-height: 130px;
   }
@@ -55,11 +59,6 @@ body {
 .card {
   filter: brightness(96%);
 }
-
-/* add space above to give a little room between grid and header */
-.ui.grid {
-  margin-top: 20px;
-} 
 
 .card:hover {
   filter: brightness(100%);
@@ -75,6 +74,30 @@ body {
   min-width: 15vh;
 }
 
-.offcanvas-collapse, .open {
-  background: #076ae1;
+#icon{
+  width : 30px;
+margin: 10px;
+}
+
+
+
+footer{
+  color:var(--secondary-color) ;
+}
+.dark-theme{
+  --primary-color: #000000ec;
+  --secondary-color:  #ffffff;
+}
+
+.carousel-inner{
+  width: 80%;
+  margin:auto;
+}
+
+.button{
+margin-left: 10px;
+}
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
 }
