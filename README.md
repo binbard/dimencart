@@ -63,3 +63,14 @@ git push
 10. Click on `contribute` and click `open pull request`.
 
 11. Write an appropriate comment and click `create pull request`.
+
+## Contributors
+<a href="https://github.com/uti1man/dimencart/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=uti1man/dimencart" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks).
+
+## License
+
+[AGPL-3.0 license](https://github.com/uti1man/dimencart/blob/main/LICENSE) - GNU Affero General Public License 
