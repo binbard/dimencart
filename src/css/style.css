@@ -39,8 +39,9 @@ body {
 
 /* side margins to make mobile version look cleaner */
 body {
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
   .zpimg{
     min-height: 130px;
