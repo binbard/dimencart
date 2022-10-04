@@ -48,6 +48,10 @@ $('.ui.search').search({
 
 /* swiper view */
 var swiper = new Swiper(".mySwiper", {
+  navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
   slidesPerView: 1,
   spaceBetween: 10,
   loop: true,
@@ -102,4 +106,3 @@ function logout() {
 }
 
 $('.ui.button.toggle').state()
-
