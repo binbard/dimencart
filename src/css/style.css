@@ -62,6 +62,7 @@ body {
 
 .card:hover {
   filter: brightness(100%);
+  transform: translate(0px, 25px);
 }
 
 .nav-link:hover {
