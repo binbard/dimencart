@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
-  
+
   <!-- Welcome to HACKTOBERFEST 2022 -->
-  
+
   <!-- DONT WAIT; Start Contributing. Small contribution also counts and will be considered -->
 
 <head>
@@ -26,7 +26,9 @@
   <!-- Favicons -->
 </head>
 
-
+<body onload="myFunction()" style="margin:0;">
+  <div id="loader"></div>
+    <div style="display:none;" id="myDiv" class="animate-bottom">
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top" aria-label="Main navigation"
   style="background-color:#076ae1;max-height: 7vh;padding: 0px;">
   <div class="container align-items-center" style="margin-bottom: 0px; padding-bottom:0px">
@@ -276,7 +278,7 @@
       </div>
   </footer>
 </div>
-
+</div>
 <script src="./vendor/js/jquery-3.6.0.min.js"></script>
 <script src="./vendor/js/bootstrap.bundle.min.js"></script>
 <script src="./vendor/js/semantic.min.js"></script>
@@ -285,6 +287,18 @@
 <script src="./src/js/helper.js"></script>
 <script src="./src/js/script.js"></script>
 <script src="./src/js/products.js"></script>
+<script>
+var myVar;
+
+function myFunction() {
+myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+document.getElementById("loader").style.display = "none";
+document.getElementById("myDiv").style.display = "block";
+}
+</script>
 </body>
 
 </html>
