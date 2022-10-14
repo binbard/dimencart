@@ -1,0 +1,29 @@
+#banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url('../../res/banner/jewel.webp');
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner h4 {
+    color: #dff1ff;
+    font-size: 21px;
+    padding: 20px 0;
+}
+
+#banner h2 {
+    color: #dff1ff;
+    font-size: 42px;
+    font-weight: 700;
+    padding: 10px 0;
+}
+
+#banner h2 span {
+    color: #dba21c;
+}
